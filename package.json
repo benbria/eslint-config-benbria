@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-benbria",
+  "version": "1.0.0",
+  "description": "eslint configuration for Benbria projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benbria/eslint-config-benbria.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Benbria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benbria/eslint-config-benbria/issues"
+  },
+  "homepage": "https://github.com/benbria/eslint-config-benbria#readme",
+  "peerDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
