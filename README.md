@@ -1,6 +1,17 @@
 ## For ES6/React Projects
 
+Copy and paste this into your shell:
+
 ```
-npm install --save-dev eslint@^3.18.0 eslint-plugin-react@^6.10.2 eslint-plugin-import@^2.2.0 eslint-config-benbria
+npm info "eslint-config-benbria@latest" peerDependencies --json | \
+    command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "eslint-config-benbria@latest"
+echo '{"extends": "benbria"}' > .eslintrc
+```
+
+Or, for yarn:
+
+```
+npm info "eslint-config-benbria@latest" peerDependencies --json | \
+    command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add --dev "eslint-config-benbria@latest"
 echo '{"extends": "benbria"}' > .eslintrc
 ```
