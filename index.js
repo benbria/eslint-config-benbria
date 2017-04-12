@@ -33,11 +33,12 @@ module.exports = {
     },
 
     "rules": {
+        "comma-dangle": "error", // disallow or enforce trailing commas
+        "max-len": ["warn", 120],
         "no-console": "off", // disallow use of console (off by default in the node environment)
         "no-extra-parens": "off",
-        "valid-jsdoc": "error", // Ensure JSDoc comments are valid (off by default)
         "no-unsafe-negation": "error", // disallow negation of the left operand of an in expression
-        "comma-dangle": "error", // disallow or enforce trailing commas
+        "valid-jsdoc": "error", // Ensure JSDoc comments are valid (off by default)
 
         //
         // Best Practices
