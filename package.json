@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-benbria",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint configuration for Benbria projects.",
   "main": "index.js",
   "scripts": {
