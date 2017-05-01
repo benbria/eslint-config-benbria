@@ -38,7 +38,7 @@ module.exports = {
         "no-console": "off", // disallow use of console (off by default in the node environment)
         "no-extra-parens": "off",
         "no-unsafe-negation": "error", // disallow negation of the left operand of an in expression
-        "valid-jsdoc": "error", // Ensure JSDoc comments are valid (off by default)
+        "valid-jsdoc": ["error", {"requireReturn": false}], // Ensure JSDoc comments are valid (off by default)
 
         //
         // Best Practices
