@@ -75,7 +75,7 @@ module.exports = {
         "no-self-compare": "error", // disallow comparisons where both sides are exactly the same (off by default)
         "no-sequences": "error", // disallow use of comma operator
         "no-throw-literal": "error", // restrict what can be thrown as an exception (off by default)
-        "no-warning-comments": ["warn", {"terms": ["todo", "fixme"], "location": "start"}],
+        "no-warning-comments": ["error", {"terms": ["fixme"], "location": "start"}],
         "no-with": "error", // disallow use of the with statement
         "prefer-promise-reject-errors": "error", // reject() should always be called with an error.
         "radix": "error", // require use of the second argument for parseInt() (off by default)
