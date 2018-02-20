@@ -1,4 +1,4 @@
-## For ES6/React Projects
+## For ES6 Projects
 
 Copy and paste this into your shell:
 

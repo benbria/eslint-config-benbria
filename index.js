@@ -10,13 +10,11 @@ module.exports = {
         "ecmaVersion": 8,
         "sourceType": "module",
         "ecmaFeatures": {
-            "impliedStrict": true,
-            "jsx": true
+            "impliedStrict": true
         }
     },
 
     "env": {
-        "browser": true,
         "node": true,
         "es6": true,
         "mocha": true
@@ -27,7 +25,7 @@ module.exports = {
     "settings": {
         "import/resolver":{
             "node" :{
-                "extensions": [".js",".jsx"]
+                "extensions": [".js"]
             }
         }
     },
@@ -35,7 +33,7 @@ module.exports = {
     "rules": {
         "comma-dangle": "error", // disallow or enforce trailing commas
         "max-len": ["warn", 120],
-        "no-console": "off", // disallow use of console (off by default in the node environment)
+        "no-console": "warn", // disallow use of console (off by default in the node environment)
         "no-extra-parens": "off",
         "no-unsafe-negation": "error", // disallow negation of the left operand of an in expression
         "valid-jsdoc": ["error", {"requireReturn": false}], // Ensure JSDoc comments are valid (off by default)
@@ -104,9 +102,6 @@ module.exports = {
         "no-useless-rename": "error",
         "no-var": "error", // require let or const instead of var (off by default)
         "generator-star-spacing": [2, "before"], // enforce the spacing around the * in generator functions (off by default)
-        "no-duplicate-imports": "error",
-
-        // React
-        "react/prop-types": "warn"
+        "no-duplicate-imports": "error"
     }
 };
