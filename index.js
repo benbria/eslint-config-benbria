@@ -6,6 +6,8 @@ module.exports = {
         "plugin:react/recommended"
     ],
 
+    "plugins": ["promise"],
+
     "parserOptions": {
         "ecmaVersion": 8,
         "sourceType": "module",
@@ -102,6 +104,9 @@ module.exports = {
         "no-useless-rename": "error",
         "no-var": "error", // require let or const instead of var (off by default)
         "generator-star-spacing": [2, "before"], // enforce the spacing around the * in generator functions (off by default)
-        "no-duplicate-imports": "error"
+        "no-duplicate-imports": "error",
+
+        // eslint-plugin-promise
+        "promise/catch-or-return": ["error", {allowThen: true}]
     }
 };
