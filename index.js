@@ -89,7 +89,6 @@ module.exports = {
         //
         // These rules have to do with variable declarations.
         //
-        "no-catch-shadow": "error", // disallow the catch clause parameter name being the same as a variable in the outer scope (off by default in the node environment)
         "no-label-var": "error", // disallow labels that share a name with a variable
         "no-shadow-restricted-names": "error", // disallow shadowing of names such as arguments
         "no-undef-init": "error", // disallow use of undefined when initializing variables
