@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/benbria/eslint-config-benbria#readme",
   "peerDependencies": {
-    "eslint": "^4.18.0",
+    "eslint": "^5.7.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-promise": "^3.6.0"
+    "eslint-plugin-promise": "^4.0.1"
   }
 }
