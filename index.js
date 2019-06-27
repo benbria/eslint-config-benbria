@@ -31,7 +31,7 @@ module.exports = {
     },
 
     "rules": {
-        "comma-dangle": "error", // disallow or enforce trailing commas
+        "comma-dangle": "off", // disallow or enforce trailing commas
         "max-len": ["warn", 120],
         "no-console": "warn", // disallow use of console (off by default in the node environment)
         "no-extra-parens": "off",
