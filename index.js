@@ -47,12 +47,12 @@ module.exports = {
         "consistent-return": "error", // require return statements to either always or never specify values
         "curly": "error", // specify curly brace conventions for all control statements
         "default-case": "error", // require default case in switch statements (off by default)
-        "eqeqeq": "error", // require the use of === and !==
+        "eqeqeq": ["error", "always", {"null": "ignore"}], // require the use of === and !==
         "guard-for-in": "error", // make sure for-in loops have an if statement (off by default)
         "no-alert": "error", // disallow the use of alert, confirm, and prompt
         "no-caller": "error", // disallow use of arguments.caller or arguments.callee
         "no-div-regex": "error", // disallow division operators explicitly at beginning of regular expression (off by default)
-        "no-eq-null": "error", // disallow comparisons to null without a type-checking operator (off by default)
+        "no-eq-null": "off", // disallow comparisons to null without a type-checking operator (off by default)
         "no-eval": "error", // disallow use of eval()
         "no-extend-native": "error", // disallow adding to native types
         "no-extra-bind": "error", // disallow unnecessary function binding
